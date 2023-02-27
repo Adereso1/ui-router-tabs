@@ -1,12 +1,12 @@
 {
-  "name": "angular-ui-router-tabs",
+  "name": "ui-router-tabs-adereso",
   "description": "Idiot-proof tab panes with route support using Angular.js + Bootstrap 3 + UI Router.",
   "homepage": "http://github.com/rpocklin/ui-router-tabs",
   "author": "Robert Pocklington <rpocklin@gmail.com>",
   "main": "src/ui-router-tabs.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/rpocklin/ui-router-tabs.git"
+    "url": "git+ssh://git@github.com/rpocklin/ui-router-tabs.git"
   },
   "keywords": [
     "angular",
@@ -15,7 +15,7 @@
     "ui-router",
     "bootstrap"
   ],
-  "version": "2.0.2",
+  "version": "2.1.0",
   "license": "MIT",
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -43,5 +43,11 @@
   },
   "scripts": {
     "test": "grunt karma"
+  },
+  "bugs": {
+    "url": "https://github.com/rpocklin/ui-router-tabs/issues"
+  },
+  "directories": {
+    "example": "example"
   }
 }
